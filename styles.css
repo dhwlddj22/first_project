@@ -1,0 +1,51 @@
+/* 기본 스타일 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+/* 배경 이미지 및 레이아웃 */
+.background {
+    background-image: 'background.jpeg'; /* 배경 이미지 파일 경로 */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+/* 네비게이션 스타일 */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ccc;
+}
+
+/* 메인 텍스트 스타일 */
+.main-text h1 {
+    font-size: 3em;
+    font-weight: bold;
+}
